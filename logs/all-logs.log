@@ -1,168 +1,139 @@
-[2023-03-07T11:37:38.175] [INFO] info - 启动成功
-[2023-03-07T11:42:35.916] [INFO] info - 启动成功
-[2023-03-07T11:42:52.487] [INFO] info - 6666
-[2023-03-07T11:43:18.197] [INFO] info - 8888
-[2023-03-07T11:43:39.327] [INFO] info - 8888
-[2023-03-07T11:43:41.028] [INFO] info - GET, /
-[2023-03-07T11:43:41.071] [INFO] info - GET, /favicon.ico
-[2023-03-07T11:46:05.581] [INFO] info - 8888
-[2023-03-07T11:46:28.080] [INFO] info - 8888
-[2023-03-07T11:46:41.969] [INFO] info - 8888
-[2023-03-07T11:55:56.687] [INFO] info - 8888
-[2023-03-07T13:47:42.511] [INFO] info - 8888
-[2023-03-07T13:47:48.493] [INFO] info - GET, /
-[2023-03-07T13:47:56.587] [INFO] info - GET, /user
-[2023-03-07T14:03:43.431] [INFO] info - 8888
-[2023-03-07T14:03:50.950] [INFO] info - 8888
-[2023-03-07T14:37:25.404] [INFO] info - 8888
-[2023-03-07T14:40:52.840] [INFO] info - 8888
-[2023-03-07T14:41:29.551] [INFO] info - 8888
-[2023-03-07T14:42:04.537] [INFO] info - GET, /user
-[2023-03-07T16:16:21.276] [INFO] info - 8888
-[2023-03-07T16:16:27.641] [INFO] info - GET, /user
-[2023-03-07T16:16:43.126] [INFO] info - 8888
-[2023-03-07T16:16:44.333] [INFO] info - GET, /user
-[2023-03-07T16:20:42.325] [INFO] info - 8888
-[2023-03-07T16:21:04.925] [INFO] info - 8888
-[2023-03-07T16:21:10.536] [INFO] info - GET, /user
-[2023-03-07T16:21:29.445] [INFO] info - 8888
-[2023-03-07T16:21:31.989] [INFO] info - GET, /user
-[2023-03-07T16:21:54.960] [INFO] info - 8888
-[2023-03-07T16:22:00.068] [INFO] info - GET, /user
-[2023-03-07T16:23:49.333] [INFO] info - 8888
-[2023-03-07T16:24:59.169] [INFO] info - 8888
-[2023-03-07T16:25:48.785] [INFO] info - 8888
-[2023-03-07T16:25:51.930] [INFO] info - GET, /user
-[2023-03-07T16:25:55.202] [INFO] info - GET, /apit
-[2023-03-07T16:25:58.359] [INFO] info - GET, /api
-[2023-03-07T16:26:02.021] [INFO] info - GET, /api/login
-[2023-03-07T16:26:22.867] [INFO] info - 8888
-[2023-03-07T16:26:24.857] [INFO] info - GET, /api/login
-[2023-03-07T16:27:17.744] [INFO] info - 8888
-[2023-03-07T16:28:56.313] [INFO] info - 8888
-[2023-03-07T16:29:54.469] [INFO] info - 8888
-[2023-03-07T16:30:00.605] [INFO] info - 8888
-[2023-03-07T16:30:05.706] [INFO] info - GET, /api/login
-[2023-03-08T10:01:50.460] [INFO] info - 8888
-[2023-03-08T10:01:52.869] [INFO] info - 8888
-[2023-03-08T10:16:24.601] [INFO] info - 8888
-[2023-03-08T10:16:37.585] [INFO] info - GET, /
-[2023-03-08T10:16:58.627] [INFO] info - 8888
-[2023-03-08T10:16:59.635] [INFO] info - GET, /
-[2023-03-08T10:18:12.745] [INFO] info - 8888
-[2023-03-08T10:18:16.259] [INFO] info - GET, /
-[2023-03-08T10:18:33.449] [INFO] info - 8888
-[2023-03-08T10:18:34.660] [INFO] info - GET, /
-[2023-03-08T10:18:35.647] [INFO] info - GET, /
-[2023-03-08T10:18:36.200] [INFO] info - GET, /
-[2023-03-08T10:18:53.367] [INFO] info - 8888
-[2023-03-08T10:18:54.248] [INFO] info - GET, /
-[2023-03-08T10:18:54.617] [INFO] info - GET, /
-[2023-03-08T10:19:00.485] [INFO] info - 8888
-[2023-03-08T10:21:17.199] [INFO] info - 8888
-[2023-03-08T10:21:24.739] [INFO] info - GET, /
-[2023-03-08T10:21:38.085] [INFO] info - GET, /pubild
-[2023-03-08T10:21:41.053] [INFO] info - GET, /user
-[2023-03-08T10:21:48.002] [INFO] info - 8888
-[2023-03-08T10:21:49.290] [INFO] info - GET, /user
-[2023-03-08T10:21:58.409] [INFO] info - 8888
-[2023-03-08T10:22:02.520] [INFO] info - GET, /user
-[2023-03-08T10:25:46.350] [INFO] info - 8888
-[2023-03-08T10:26:00.368] [INFO] info - GET, /api
-[2023-03-08T10:26:05.548] [INFO] info - GET, /api/login
-[2023-03-08T10:26:15.559] [INFO] info - 8888
-[2023-03-08T10:26:17.692] [INFO] info - GET, /api/login
-[2023-03-08T10:26:49.730] [INFO] info - 8888
-[2023-03-08T10:26:53.154] [INFO] info - GET, /api/login
-[2023-03-08T10:26:54.566] [INFO] info - GET, /api/login
-[2023-03-08T10:26:54.951] [INFO] info - GET, /api/login
-[2023-03-08T10:26:55.139] [INFO] info - GET, /api/login
-[2023-03-08T10:26:55.334] [INFO] info - GET, /api/login
-[2023-03-08T10:31:10.152] [INFO] info - 8888
-[2023-03-08T10:34:22.996] [INFO] info - 8888
-[2023-03-08T10:35:01.386] [INFO] info - 8888
-[2023-03-08T10:35:30.767] [INFO] info - 8888
-[2023-03-08T10:35:58.676] [INFO] info - 8888
-[2023-03-08T10:40:15.107] [INFO] info - 8888
-[2023-03-08T10:41:10.320] [INFO] info - 8888
-[2023-03-08T10:41:15.169] [INFO] info - GET, /api/login
-[2023-03-08T10:41:16.624] [INFO] info - GET, /api/login
-[2023-03-08T10:41:49.553] [INFO] info - GET, /api/rejister
-[2023-03-08T10:42:06.481] [INFO] info - GET, /api/rejister
-[2023-03-08T10:43:17.859] [INFO] info - 8888
-[2023-03-08T10:43:24.662] [INFO] info - GET, /api/rejister
-[2023-03-08T10:52:31.302] [INFO] info - 8888
-[2023-03-08T10:52:36.604] [INFO] info - GET, /api/rejister
-[2023-03-08T10:52:39.460] [INFO] info - GET, /api/login
-[2023-03-08T10:52:46.520] [INFO] info - GET, /api/user/login
-[2023-03-08T10:54:00.341] [INFO] info - 8888
-[2023-03-08T10:54:33.006] [INFO] info - 8888
-[2023-03-08T10:55:11.238] [INFO] info - 8888
-[2023-03-08T10:55:54.789] [INFO] info - 8888
-[2023-03-08T10:55:58.055] [INFO] info - GET, /api/user/login
-[2023-03-08T10:56:00.985] [INFO] info - GET, /api/login
-[2023-03-08T10:56:10.076] [INFO] info - 8888
-[2023-03-08T10:56:10.881] [INFO] info - GET, /api/login
-[2023-03-08T10:56:11.862] [INFO] info - GET, /api/login
-[2023-03-08T10:56:12.278] [INFO] info - GET, /api/login
-[2023-03-08T10:56:56.033] [INFO] info - 8888
-[2023-03-08T10:56:57.023] [INFO] info - GET, /api/login
-[2023-03-08T10:56:59.085] [INFO] info - GET, /api/login
-[2023-03-08T10:57:13.089] [INFO] info - 8888
-[2023-03-08T10:57:14.397] [INFO] info - 8888
-[2023-03-08T10:57:16.256] [INFO] info - GET, /api/login
-[2023-03-08T10:57:16.992] [INFO] info - GET, /api/login
-[2023-03-08T10:57:17.205] [INFO] info - GET, /api/login
-[2023-03-08T10:57:17.403] [INFO] info - GET, /api/login
-[2023-03-08T10:57:17.642] [INFO] info - GET, /api/login
-[2023-03-08T10:57:17.783] [INFO] info - GET, /api/login
-[2023-03-08T11:03:47.409] [INFO] info - 8888
-[2023-03-08T11:04:46.236] [INFO] info - 8888
-[2023-03-08T11:05:02.001] [INFO] info - 8888
-[2023-03-08T11:07:46.062] [INFO] info - 8888
-[2023-03-08T11:09:45.821] [INFO] info - 8888
-[2023-03-08T11:09:58.747] [INFO] info - 8888
-[2023-03-08T11:10:01.560] [INFO] info - GET, /api/login
-[2023-03-08T11:10:02.795] [INFO] info - GET, /api/login
-[2023-03-08T11:10:03.492] [INFO] info - GET, /api/login
-[2023-03-08T11:10:04.732] [INFO] info - GET, /api/login
-[2023-03-08T11:10:30.941] [INFO] info - 8888
-[2023-03-08T11:11:43.032] [INFO] info - 8888
-[2023-03-08T11:17:10.723] [INFO] info - 8888
-[2023-03-08T11:19:01.071] [INFO] info - 8888
-[2023-03-08T11:19:58.630] [INFO] info - 8888
-[2023-03-08T11:20:17.393] [INFO] info - 8888
-[2023-03-08T11:20:21.816] [INFO] info - 8888
-[2023-03-08T11:20:46.299] [INFO] info - 8888
-[2023-03-08T11:20:49.332] [INFO] info - GET, /api/login
-[2023-03-08T11:37:55.827] [INFO] info - 8888
-[2023-03-08T11:42:22.619] [INFO] info - 8888
-[2023-03-08T11:43:58.309] [INFO] info - 8888
-[2023-03-08T11:44:01.481] [INFO] info - 8888
-[2023-03-08T11:44:33.125] [INFO] info - 8888
-[2023-03-08T11:44:41.883] [INFO] info - GET, /api/login
-[2023-03-08T11:48:08.894] [INFO] info - 8888
-[2023-03-08T11:48:20.890] [INFO] info - 8888
-[2023-03-08T11:48:25.736] [INFO] info - GET, /api/login
-[2023-03-08T11:48:44.043] [INFO] info - 8888
-[2023-03-08T11:48:45.446] [INFO] info - GET, /api/login
-[2023-03-08T11:48:53.536] [INFO] info - 8888
-[2023-03-08T11:48:56.136] [INFO] info - GET, /api/login
-[2023-03-08T11:49:02.475] [INFO] info - 8888
-[2023-03-08T11:49:18.029] [INFO] info - 8888
-[2023-03-08T11:49:21.238] [INFO] info - 8888
-[2023-03-08T11:49:23.601] [INFO] info - GET, /api/login
-[2023-03-08T11:49:36.373] [INFO] info - 8888
-[2023-03-08T11:50:06.803] [INFO] info - 8888
-[2023-03-08T11:50:16.304] [INFO] info - 8888
-[2023-03-08T11:50:20.318] [INFO] info - GET, /api/login
-[2023-03-08T11:50:46.353] [INFO] info - 8888
-[2023-03-08T11:50:47.161] [INFO] info - GET, /api/login
-[2023-03-08T11:51:34.989] [INFO] info - 8888
-[2023-03-08T11:51:36.452] [INFO] info - GET, /api/login
-[2023-03-08T11:56:17.224] [INFO] info - 8888
-[2023-03-08T11:56:18.799] [INFO] info - GET, /api/login
-[2023-03-08T11:56:31.080] [INFO] info - 8888
-[2023-03-08T11:56:32.094] [INFO] info - GET, /api/login
-[2023-03-08T11:57:17.570] [INFO] info - 8888
-[2023-03-08T11:57:26.526] [INFO] info - GET, /api/login
+[2023-03-21T14:51:38.669] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T14:54:30.517] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T14:56:09.469] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:19:54.086] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:20:31.269] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:21:41.299] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:21:52.236] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:22:06.070] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:28:54.485] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:32:01.253] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:33:11.429] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:33:54.378] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:34:19.801] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:34:22.239] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:34:51.597] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:35:37.567] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:35:43.238] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:35:52.016] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:35:53.809] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:35:54.574] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:36:06.671] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:36:09.816] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:36:31.342] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:36:32.280] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:37:03.565] [INFO] info - GET, /api/userById2?id=1
+[2023-03-21T15:37:08.295] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:46:06.050] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:46:14.116] [INFO] info - GET, /api/userById
+[2023-03-21T15:46:38.755] [INFO] info - GET, /api/userById
+[2023-03-21T15:47:01.132] [INFO] info - GET, /api/userById
+[2023-03-21T15:47:17.093] [INFO] info - GET, /api/userById
+[2023-03-21T15:47:31.855] [INFO] info - GET, /api/userById
+[2023-03-21T15:47:51.156] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:48:09.030] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T15:48:12.765] [INFO] info - GET, /api/userById
+[2023-03-21T15:48:22.210] [INFO] info - GET, /api/userById
+[2023-03-21T15:48:39.075] [INFO] info - GET, /api/userById
+[2023-03-21T15:50:25.967] [INFO] info - GET, /api/userById
+[2023-03-21T15:52:19.277] [INFO] info - GET, /api/userById?id=10
+[2023-03-21T15:52:29.618] [INFO] info - GET, /api/userById
+[2023-03-21T15:54:30.071] [INFO] info - GET, /api/userById
+[2023-03-21T15:55:02.540] [INFO] info - GET, /api/userById
+[2023-03-21T15:55:34.397] [INFO] info - GET, /api/userById
+[2023-03-21T15:56:21.960] [INFO] info - GET, /api/userById
+[2023-03-21T15:56:43.357] [INFO] info - GET, /api/userById
+[2023-03-21T15:56:45.487] [INFO] info - GET, /api/userById
+[2023-03-21T16:12:40.750] [INFO] info - GET, /api/userById
+[2023-03-21T16:16:30.878] [INFO] info - GET, /api/userById
+[2023-03-21T16:16:36.589] [INFO] info - GET, /api/userById?id=1000
+[2023-03-21T16:16:40.891] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T16:26:26.319] [INFO] info - GET, /swagger-json
+[2023-03-21T16:29:28.042] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T16:29:59.527] [INFO] info - GET, /api/userById?id=1
+[2023-03-21T16:37:59.977] [INFO] info - GET, /api/userById?id=null
+[2023-03-21T16:38:05.895] [INFO] info - GET, /api/userById
+[2023-03-21T16:38:15.303] [INFO] info - GET, /api/userById
+[2023-03-21T16:38:54.841] [INFO] info - GET, /api/userById
+[2023-03-21T16:39:17.572] [INFO] info - GET, /api/userById
+[2023-03-21T16:39:44.058] [INFO] info - GET, /api/userById
+[2023-03-21T16:39:52.531] [INFO] info - GET, /api/userById
+[2023-03-21T16:40:11.942] [INFO] info - GET, /api/userById
+[2023-03-21T16:40:27.673] [INFO] info - GET, /api/userById
+[2023-03-21T16:41:11.717] [INFO] info - GET, /api/userById
+[2023-03-21T16:41:16.949] [INFO] info - GET, /swagger-html
+[2023-03-21T16:41:17.166] [INFO] info - GET, /swagger-json
+[2023-03-21T17:15:48.868] [INFO] info - GET, /api/login
+[2023-03-21T17:15:57.729] [INFO] info - GET, /api/login
+[2023-03-21T17:15:59.137] [INFO] info - GET, /api/login
+[2023-03-21T17:16:30.949] [INFO] info - GET, /api/login
+[2023-03-21T17:16:39.781] [INFO] info - GET, /api/login
+[2023-03-21T17:16:55.463] [INFO] info - GET, /api/login
+[2023-03-21T17:31:53.295] [INFO] info - GET, /api/login
+[2023-03-21T17:31:58.983] [INFO] info - POST, /api/login
+[2023-03-21T17:32:29.020] [INFO] info - GET, /swagger-html
+[2023-03-21T17:32:29.187] [INFO] info - GET, /swagger-json
+[2023-03-21T17:32:42.307] [INFO] info - POST, /api/login
+[2023-03-21T17:33:01.720] [INFO] info - POST, /api/login
+[2023-03-21T17:33:20.562] [INFO] info - POST, /api/login
+[2023-03-21T17:33:31.260] [INFO] info - POST, /api/login
+[2023-03-21T17:34:26.435] [INFO] info - POST, /api/login
+[2023-03-21T17:34:35.801] [INFO] info - POST, /api/login
+[2023-03-21T17:34:46.877] [INFO] info - POST, /api/login
+[2023-03-21T17:35:21.363] [INFO] info - POST, /api/login
+[2023-03-21T17:35:24.528] [INFO] info - POST, /api/login
+[2023-03-21T17:35:41.936] [INFO] info - POST, /api/login
+[2023-03-21T17:36:07.445] [INFO] info - POST, /api/login
+[2023-03-21T17:36:38.525] [INFO] info - POST, /api/login
+[2023-03-21T17:36:53.662] [INFO] info - POST, /api/login
+[2023-03-21T17:38:59.223] [INFO] info - POST, /api/login
+[2023-03-21T17:39:21.188] [INFO] info - POST, /api/login
+[2023-03-21T17:52:38.593] [INFO] info - POST, /api/login
+[2023-03-21T17:53:08.737] [INFO] info - POST, /api/login
+[2023-03-21T17:53:36.991] [INFO] info - POST, /api/login
+[2023-03-21T17:54:24.046] [INFO] info - POST, /api/login
+[2023-03-21T18:23:25.634] [INFO] info - POST, /api/login
+[2023-03-22T09:41:20.625] [INFO] info - GET, /swagger-json
+[2023-03-22T09:41:34.550] [INFO] info - GET, /swagger-json
+[2023-03-22T09:49:34.832] [INFO] info - POST, /api/login
+[2023-03-22T09:49:55.720] [INFO] info - POST, /api/login
+[2023-03-22T09:50:00.602] [INFO] info - POST, /api/user
+[2023-03-22T09:50:08.577] [INFO] info - POST, /api/user
+[2023-03-22T09:50:39.176] [INFO] info - GET, /api/user
+[2023-03-22T10:44:00.355] [INFO] info - GET, /api/user
+[2023-03-22T10:44:04.287] [INFO] info - GET, /api/user
+[2023-03-22T10:44:07.825] [INFO] info - GET, /api/user
+[2023-03-22T10:55:05.202] [INFO] info - GET, /api/user
+[2023-03-22T10:55:08.610] [INFO] info - GET, /api/user
+[2023-03-22T10:55:12.017] [INFO] info - GET, /api/user
+[2023-03-22T10:55:13.740] [INFO] info - GET, /api/user
+[2023-03-22T10:55:22.944] [INFO] info - GET, /api/login
+[2023-03-22T10:55:45.158] [INFO] info - GET, /api/login
+[2023-03-22T10:56:14.775] [INFO] info - GET, /api/login
+[2023-03-22T10:56:35.297] [INFO] info - GET, /api/login
+[2023-03-22T10:56:44.089] [INFO] info - GET, /api/login
+[2023-03-22T10:56:48.793] [INFO] info - GET, /api/login
+[2023-03-22T10:56:58.277] [INFO] info - GET, /api/login
+[2023-03-22T10:57:02.425] [INFO] info - GET, /api/login
+[2023-03-22T10:57:26.400] [INFO] info - GET, /api/login
+[2023-03-22T10:57:56.697] [INFO] info - POST, /api/login
+[2023-03-22T10:58:15.071] [INFO] info - GET, /api/user
+[2023-03-22T11:18:55.914] [INFO] info - GET, /api/user
+[2023-03-22T11:19:07.026] [INFO] info - GET, /api/user
+[2023-03-22T11:19:26.143] [INFO] info - GET, /api/user
+[2023-03-22T11:19:47.087] [INFO] info - GET, /api/user
+[2023-03-22T11:20:24.031] [INFO] info - GET, /api/user
+[2023-03-22T11:20:51.337] [INFO] info - GET, /api/user
+[2023-03-22T11:21:12.249] [INFO] info - GET, /api/user
+[2023-03-22T11:21:25.700] [INFO] info - GET, /api/user
+[2023-03-22T11:21:38.503] [INFO] info - POST, /api/login
+[2023-03-22T11:21:53.111] [INFO] info - GET, /api/user
+[2023-03-22T11:22:42.432] [INFO] info - GET, /api/user
+[2023-03-22T11:29:12.440] [INFO] info - GET, /api/user
+[2023-03-22T11:29:56.782] [INFO] info - GET, /api/user
+[2023-03-22T11:33:24.192] [INFO] info - GET, /api/user
+[2023-03-22T11:40:26.074] [INFO] info - POST, /api/login
+[2023-03-22T11:44:10.233] [INFO] info - POST, /api/login
+[2023-03-22T13:52:36.382] [INFO] info - POST, /api/login
+[2023-03-22T13:53:09.411] [INFO] info - POST, /api/login
+[2023-03-22T13:54:51.569] [INFO] info - POST, /api/login

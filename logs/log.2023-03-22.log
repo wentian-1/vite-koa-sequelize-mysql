@@ -1,0 +1,20 @@
+[2023-03-22T09:47:37.467] [ERROR] error - UnauthorizedError: 暂无权限
+    at Object.throw (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/node_modules/.pnpm/koa@2.14.1/node_modules/koa/lib/context.js:97:11)
+    at AuthError.throwErr (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/utils/error.js:8:3)
+    at exports.NO_AUTH (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/config/httpRes.js:19:73)
+    at /Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/app.js:28:10
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at bodyParser (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/node_modules/.pnpm/koa-bodyparser@4.4.0/node_modules/koa-bodyparser/index.js:91:5) {
+  code: 4001,
+  flag: 'ErrorClass'
+}
+[2023-03-22T09:47:38.940] [ERROR] error - UnauthorizedError: 暂无权限
+    at Object.throw (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/node_modules/.pnpm/koa@2.14.1/node_modules/koa/lib/context.js:97:11)
+    at AuthError.throwErr (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/utils/error.js:8:3)
+    at exports.NO_AUTH (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/config/httpRes.js:19:73)
+    at /Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/app.js:28:10
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at bodyParser (/Users/yuanfacang/Documents/kaiyuan/docDemo/koa-app/node_modules/.pnpm/koa-bodyparser@4.4.0/node_modules/koa-bodyparser/index.js:91:5) {
+  code: 4001,
+  flag: 'ErrorClass'
+}

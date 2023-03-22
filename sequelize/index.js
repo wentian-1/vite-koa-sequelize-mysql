@@ -1,11 +1,10 @@
 const { Sequelize } = require('sequelize')
-const { database } = require('../config')
+const { database } = require('@config/config.js')
 const sequelize = new Sequelize(database.name, database.username, database.password, {
 	host: database.host,
 	dialect: database.dialect,
 	dialectOptions: {
 		charset: 'utf8mb4',
-		collate: 'utf8mb4_unicode_ci',
 		supportBigNumbers: true,
 		bigNumberStrings: true
 	},
@@ -17,13 +16,6 @@ const sequelize = new Sequelize(database.name, database.username, database.passw
 	},
 	timezone: '+08:00'
 })
-
-try {
-	sequelize.authenticate()
-	console.log('success')
-} catch(e) {
-	console.log(e)
-}
 
 module.exports = {
 	sequelize,

@@ -1,24 +1,43 @@
 {
-  "name": "vite-koa-sequelize-mysql",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ioredis": "^5.3.1",
-    "jsonwebtoken": "^9.0.0",
-    "koa": "^2.14.1",
-    "koa-bodyparser": "^4.3.0",
-    "koa-jwt": "^4.0.4",
-    "koa-router": "^12.0.0",
-    "log4js": "^6.8.0",
-    "moment": "^2.29.4",
-    "mysql2": "^3.2.0",
-    "sequelize": "^6.29.0"
-  }
+	"name": "koa-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=dev nodemon ./bin/www",
+		"prod": "cross-env NODE_ENV=production nodemon ./bin/www"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-plugin-transform-decorators-legacy": "^1.3.5",
+		"babel-register": "^6.26.0",
+		"cross-env": "^7.0.3"
+	},
+	"_moduleAliases": {
+		"@root": ".",
+		"@controller": "controller",
+		"@config": "config",
+		"@middlewares": "middlewares",
+		"@services": "services",
+		"@models": "models",
+		"@routers": "routers",
+		"@sequelize": "sequelize",
+		"@utils": "utils"
+	},
+	"dependencies": {
+		"ioredis": "^5.3.1",
+		"jsonwebtoken": "^9.0.0",
+		"koa": "^2.14.1",
+		"koa-bodyparser": "^4.4.0",
+		"koa-jwt": "^4.0.4",
+		"koa-router": "^12.0.0",
+		"koa-swagger-decorator": "^1.8.6",
+		"log4js": "^6.9.1",
+		"module-alias": "^2.2.2",
+		"moment": "^2.29.4",
+		"mysql2": "^3.2.0",
+		"sequelize": "^6.29.3"
+	}
 }

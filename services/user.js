@@ -1,30 +1,32 @@
-const userModel = require('../models/user')
+const userModel = require('@models/user')
 
 const findAllUser = async () => {
 	return new Promise((resolve, reject) => {
 		userModel.findAllUser().then(res => {
 			if (Array.isArray(res) && res.length) {
-				resolve(res[0])
+				resolve(res)
 			} else {
 				resolve(null)
 			}
 		}, err => reject(err))
 	})
 }
-
-const findOneUserByName = async (name) => {
+const findOneUserById = async (id) => {
 	return new Promise((resolve, reject) => {
-		userModel.findOneUserByName(name).then(res => {
+		userModel.findUserById(id).then(res => {
 			resolve(res)
 		}, err => reject(err))
 	})
 }
-
-
-
-
-
+const findUserByName = async (name) => {
+	return new Promise((resolve, reject) => {
+		userModel.findUserByName(name).then(res => {
+			resolve(res)
+		}, err => reject(err))
+	})
+}
 module.exports = {
 	findAllUser,
-	findOneUserByName
+	findOneUserById,
+	findUserByName
 }

@@ -1,72 +1,26 @@
+require('module-alias/register');
+require("babel-register");
 const Koa = require('koa');
-const config = require('./config');
-const router = require('./routers');
-const bodyparser = require('koa-bodyparser');
-const koajwt = require('koa-jwt');
-const tokenVerify = require('./utils/tokenVerify');
-
-const {
-	info
-} = require('./utils/log')
-
-
-const logger = async (ctx, next) => {
-	info(`${ctx.request.method}, ${ctx.request.url}`)
-	await next()
-}
-
-const handlerErr = async (ctx, next) => {
-	try {
-		await next()
-		ctx.body = {
-			code: ctx.status,
-			message: 'success',
-			data: ctx.body
-		}
-	} catch (e) {
-		ctx.status = e.status || 500;
-		ctx.body = {
-			message: e.message,
-			code: ctx.status
-		}
-	}
-}
-
-
-
 const app = new Koa();
-app.use(logger).use(handlerErr)
-app.use(bodyparser())
+// const router = require('@routers/index');
+const swaggerDec = require('@config/swaggerDec');
+const logger = require('@middlewares/logger');
+const { error } = require('@utils/log');
+const exception = require('@middlewares/exception');
+const bodyparser = require('koa-bodyparser');
+
+app.use(bodyparser());
+
+app.use(exception);
 
 
-app.use(function(ctx, next) {
-	return next().catch((err) => {
-		if (401 == err.status) {
-			ctx.status = 401;
-			ctx.body = '暂无权限\n';
-		} else {
-			throw err;
-		}
-	});
+
+app.use(logger);
+// app.use(router.routes());
+app.use(swaggerDec.routes(), swaggerDec.allowedMethods());
+
+app.on('error', (err, ctx) => {
+  error(err)
 });
 
-
-app.use(koajwt({
-	secret: config.secret
-}).unless({
-	path: [
-		/^\/api\/login/
-	]
-}));
-
-
-
-
-
-app.use(router.routes());
-
-
-
-app.listen(config.port, () => {
-	info(config.port, '启动成功')
-})
+module.exports = app;
